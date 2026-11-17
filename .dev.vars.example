@@ -1,0 +1,4 @@
+SUPABASE_URL=https://your-project.supabase.co
+SUPABASE_SERVICE_KEY=replace-with-service-role-key
+ADMIN_PASSWORD=replace-with-a-strong-password
+TOKEN_SECRET=replace-with-a-random-secret-at-least-32-bytes

@@ -1,0 +1,10 @@
+name = "dorm-inspection-system"
+main = "src/worker.js"
+compatibility_date = "2025-09-01"
+no_bundle = true
+
+[assets]
+directory = "./web"
+binding = "ASSETS"
+not_found_handling = "none"
+run_worker_first = true

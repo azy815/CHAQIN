@@ -1,0 +1,32 @@
+# Dependencies and local tooling
+node_modules/
+.npm-cache/
+.wrangler/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+.dev.vars
+*.pem
+*.key
+*.p12
+
+# Local build and test output
+dist/
+coverage/
+*.log
+
+# Export files and local data
+*.xls
+*.xlsx
+*.csv
+!examples/*.csv
+*.sqlite
+*.db
+
+# Generated images and temporary files
+outputs/
+tmp/
+.DS_Store
+Thumbs.db

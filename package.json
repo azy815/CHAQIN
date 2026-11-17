@@ -1,0 +1,17 @@
+{
+  "name": "dorm-inspection-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mobile-friendly university dorm inspection system powered by Cloudflare Workers and Supabase.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "check": "node --check src/worker.js"
+  },
+  "devDependencies": {
+    "wrangler": "^4.151.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
